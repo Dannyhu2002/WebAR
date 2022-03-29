@@ -11,10 +11,10 @@
 
 <body>
   <a-scene embedded arjs>
-    <a-entity scale=".2 .2 .2">
-      <a-entity gltf-model="obj/fox.glb" scale="10 10 10" rotation="270 0 0" position="0 -240 0"></a-entity>
-    </a-entity>
     <a-marker-camera preset="hiro"></a-marker-camera>
+    <a-entity scale=".2 .2 .2">
+      <a-entity gltf-model="obj/fox.glb" scale="5 5 5" position="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-entity>
+    </a-entity>
   </a-scene>
 </body>
 </html>
