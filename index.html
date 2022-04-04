@@ -9,18 +9,19 @@
     arjs='debugUIEnabled: false; trackingMethod: best;'>
     <a-marker preset='custom' type='pattern' url='resources/markers/pattern-water-1.patt'>
       <a-entity scale=".2 .2 .2">
-        <a-entity gltf-model="objects/model1Oasen.glb" scale="1 1 1" position="0 0 0" rotation="-90 0 0"></a-entity>
+        <a-entity gltf-model="objects/model1Oasen.glb" scale="1 1 1" position="0 0 0"
+          animation="property: rotation; to: 0 -360 0; loop: true; dur: 10000"></a-entity>
       </a-entity>
     </a-marker>
     <a-marker preset='custom' type='pattern' url='resources/markers/pattern-water-2.patt'>
       <a-entity scale=".2 .2 .2">
-        <a-entity gltf-model="objects/marker_2.glb" scale="5 5 5" position="0 0 0"
+        <a-entity gltf-model="objects/model2Oasen.gltf" scale="1 1 1" position="0 0 0"
           animation="property: rotation; to: 0 -360 0; loop: true; dur: 10000"></a-entity>
       </a-entity>
     </a-marker>
     <a-marker preset='custom' type='pattern' url='resources/markers/pattern-water-3.patt'>
       <a-entity scale=".2 .2 .2">
-        <a-entity gltf-model="objects/marker_3.glb" scale="5 5 5" position="0 0 0"
+        <a-entity gltf-model="objects/model3Oasen.gltf" scale="1 1 1" position="0 0 0"
           animation="property: rotation; to: 0 -360 0; loop: true; dur: 10000"></a-entity>
       </a-entity>
     </a-marker>
